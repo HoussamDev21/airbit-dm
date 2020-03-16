@@ -1,0 +1,19 @@
+@import "./variables.scss";
+
+@media screen and (max-width: $--md) {
+    .sidebar {
+        width: 72px !important;
+        .sidebar__tabs {
+            .el-tabs__header {
+                display: none;
+            }
+        }
+    }
+}
+
+.long-and-truncated {
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
